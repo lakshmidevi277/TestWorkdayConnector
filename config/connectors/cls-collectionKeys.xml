@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmWorkdayProvider.SOAPVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ccs:Get_Organizations" connectorServiceName="ccs:Get_Organizations"/>
+            <keyDetails collectionKey="ccs:Get_workers" connectorServiceName="ccs:Get_workers"/>
+            <keyDetails collectionKey="ccs:getLanguages" connectorServiceName="ccs:getLanguages"/>
+            <keyDetails collectionKey="ccs:getSkills" connectorServiceName="ccs:getSkills"/>
+            <keyDetails collectionKey="ccs:get_Categories" connectorServiceName="ccs:get_Categories"/>
+            <keyDetails collectionKey="ccs:get_locations" connectorServiceName="ccs:get_locations"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
