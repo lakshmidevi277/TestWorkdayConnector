@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">CloudConnectionNode</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">Workday_Conn:Wday_Oauth</value>
+  <value name="node_nsName">kmat_wd_oauth2:kmat_wd_oauth2_connA</value>
   <value name="node_pkg">TestWorkdayConnector</value>
   <value name="is_public">false</value>
   <value name="cloudNodeVersion">1</value>
@@ -34,22 +34,22 @@
       <value name="cn.enableCompression">false</value>
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
-      <value name="oauth.consumerId">MDA2ODQ3OGQtODQ0NC00NTk4LTg4YzItYjgxNzg4ZmYzNmUx</value>
-      <value name="oauth.consumerSecret">Workday_Conn:Wday_Oauth.oauth.consumerSecret</value>
-      <value name="oauth.accessToken">Workday_Conn:Wday_Oauth.oauth.accessToken</value>
-      <value name="oauth_v20.instanceURL"></value>
+      <value name="oauth.consumerId">dsasds</value>
+      <value name="oauth.consumerSecret">kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth.consumerSecret</value>
+      <value name="oauth.accessToken">kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth.accessToken</value>
+      <value name="oauth_v20.instanceURL">https://wd2-impl-services1.workday.com</value>
       <value name="oauth_v20.refreshAccessToken">true</value>
-      <value name="oauth_v20.refreshToken">Workday_Conn:Wday_Oauth.oauth_v20.refreshToken</value>
-      <value name="oauth_v20.accessTokenRefreshURL">https://wd2-impl-services1.workday.com/ccx/oauth2/softwareag_pt1/token</value>
+      <value name="oauth_v20.refreshToken">kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth_v20.refreshToken</value>
+      <value name="oauth_v20.accessTokenRefreshURL">https://&lt;instance&gt;.workday.com/ccx/oauth2/&lt;tenantID&gt;/token</value>
       <value name="oauth_v20.accessTokenRefreshURLRequest">Body Query String</value>
       <value name="oauth_v20.accessTokenRefreshCustomESBService"></value>
       <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
       <value name="cx.grant_type">refresh_token</value>
     </record>
     <array name="passmanHandles" type="value" depth="1">
-      <value>Workday_Conn:Wday_Oauth.oauth.consumerSecret</value>
-      <value>Workday_Conn:Wday_Oauth.oauth.accessToken</value>
-      <value>Workday_Conn:Wday_Oauth.oauth_v20.refreshToken</value>
+      <value>kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth.consumerSecret</value>
+      <value>kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth.accessToken</value>
+      <value>kmat_wd_oauth2:kmat_wd_oauth2_connA.oauth_v20.refreshToken</value>
     </array>
     <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
       <value name="poolable">true</value>
@@ -60,8 +60,8 @@
       <value name="expireTimeout">1000</value>
       <value name="startupRetryCount">0</value>
       <value name="startupBackoffSecs">10</value>
-      <value name="timeoutType">auto</value>
-      <value name="sessionExpiry">0</value>
+      <value name="timeoutType">fixed</value>
+      <value name="sessionExpiry">5</value>
     </record>
     <array name="formattableFields" type="value" depth="1">
     </array>

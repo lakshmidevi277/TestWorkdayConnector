@@ -2,12 +2,12 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmWorkdayProvider.SOAPVS">
         <servicesKeys>
-            <keyDetails collectionKey="ccs:Get_Organizations" connectorServiceName="ccs:Get_Organizations"/>
-            <keyDetails collectionKey="ccs:Get_workers" connectorServiceName="ccs:Get_workers"/>
-            <keyDetails collectionKey="ccs:getLanguages" connectorServiceName="ccs:getLanguages"/>
-            <keyDetails collectionKey="ccs:getSkills" connectorServiceName="ccs:getSkills"/>
-            <keyDetails collectionKey="ccs:get_Categories" connectorServiceName="ccs:get_Categories"/>
-            <keyDetails collectionKey="ccs:get_locations" connectorServiceName="ccs:get_locations"/>
+            <keyDetails collectionKey="ccs_wd:Get_Organizations" connectorServiceName="ccs_wd:Get_Organizations"/>
+            <keyDetails collectionKey="ccs_wd:Get_workers" connectorServiceName="ccs_wd:Get_workers"/>
+            <keyDetails collectionKey="ccs_wd:getLanguages" connectorServiceName="ccs_wd:getLanguages"/>
+            <keyDetails collectionKey="ccs_wd:getSkills" connectorServiceName="ccs_wd:getSkills"/>
+            <keyDetails collectionKey="ccs_wd:get_Categories" connectorServiceName="ccs_wd:get_Categories"/>
+            <keyDetails collectionKey="ccs_wd:get_locations" connectorServiceName="ccs_wd:get_locations"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>

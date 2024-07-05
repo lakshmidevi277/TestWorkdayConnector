@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">CloudConnectionNode</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">Workday_Conn:Wday_basic</value>
+  <value name="node_nsName">kmat_wd_basic:kmat_wd_basic_connA</value>
   <value name="node_pkg">TestWorkdayConnector</value>
   <value name="is_public">false</value>
   <value name="cloudNodeVersion">1</value>
@@ -35,12 +35,12 @@
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
       <value name="cr.username">wmiocscdemo1@softwareag_pt1</value>
-      <value name="cr.password">Workday_Conn:Wday_basic.cr.password</value>
+      <value name="cr.password">kmat_wd_basic:kmat_wd_basic_connA.cr.password</value>
       <value name="cr.preemptiveAuthEnabled">false</value>
       <value name="cr.securityRealm"></value>
     </record>
     <array name="passmanHandles" type="value" depth="1">
-      <value>Workday_Conn:Wday_basic.cr.password</value>
+      <value>kmat_wd_basic:kmat_wd_basic_connA.cr.password</value>
     </array>
     <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
       <value name="poolable">true</value>
@@ -51,7 +51,8 @@
       <value name="expireTimeout">1000</value>
       <value name="startupRetryCount">0</value>
       <value name="startupBackoffSecs">10</value>
-      <value name="timeoutType">none</value>
+      <value name="timeoutType">fixed</value>
+      <value name="sessionExpiry">5</value>
     </record>
     <array name="formattableFields" type="value" depth="1">
     </array>
