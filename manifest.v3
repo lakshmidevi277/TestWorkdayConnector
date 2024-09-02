@@ -8,7 +8,7 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-	<value name="WmWorkdayProvider">10.5.0</value>
+	<value name="WmWorkdayProvider">*.*</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
